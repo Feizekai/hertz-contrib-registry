@@ -63,3 +63,7 @@ jobs:
 
       - name: Unit Test
         run: make test
+        
+      - name: Run golangci-lint
+        uses: golangci/golangci-lint-action@v3.4.0
+
